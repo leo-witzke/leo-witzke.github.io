@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="favicon.png">
+    <title>Analyses</title>
+    <script src="/Loader.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        $("#navigation").load("navigation.html");
+      });
+    </script>
+  </head>
+  <body>
+    <div id="navigation"></div>
+    <div id="synopses"></div>
+    <center>
+      <button class="load-more" onclick="load_more('analyses')" style="margin: 0 0 0 0; padding: 0 0 0 0;">Load More</button>
+    </center>
+    <script>load_more("analyses")</script>
+  </body>
+</html>

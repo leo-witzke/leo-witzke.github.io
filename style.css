@@ -1,0 +1,306 @@
+@font-face {
+  font-family: "Tangerine";
+  src: url("/Tangerine-Bold.ttf");
+}
+
+.load-more {
+  margin-top: 20px;
+  font-family: Tangerine;
+  background: none;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+.load-more:hover {
+  color: red;
+}
+
+.HTTP404 {
+  font-size: 100px;
+  text-align: center;
+  font-family: Tangerine;
+}
+
+/* Navigation-Bar CSS */
+
+.navigation-flexbox-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  row-gap: 10px;
+  flex-wrap: wrap;
+}
+
+a.name {
+  color: black;
+  font-family: Tangerine;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  font-size: 100px;
+  margin-top: 0.5em;
+  margin-bottom: 0.2em;
+}
+
+.header {
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  font-family: Times New Roman;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: white;
+  position: absolute;
+  overflow: auto;
+  z-index: 1;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-width: thin;
+  box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.1);
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  margin: 5px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.dropdown-content a:hover {color: red; border-color: black;}
+.header:hover {color: red;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Navigation-Bar CSS */
+
+/* About CSS */
+
+.email {
+  text-decoration: none;
+  color: black;
+}
+
+.email:hover {color: red}
+
+/* About CSS */
+
+.link {
+  text-decoration: underline;
+  color: black;
+}
+
+.link:hover {color: red}
+
+/* Feature CSS */
+
+.general {
+  text-align: justify;
+  font-size: 20px;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+.feature-header {
+  font-family: Times New Roman;
+  font-weight: normal;
+  text-align: center;
+  font-size: 27px;
+  max-width: 800px;
+  margin-bottom: -10px;
+}
+
+.feature-subheader {
+  font-family: Times New Roman;
+  font-weight: normal;
+  font-style: italic;
+  text-align: center;
+  font-size: 20px;
+  max-width: 800px;
+  margin-bottom: 1em;
+}
+
+img.feature-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: min(100%,800px);
+  height: auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.feature-caption {
+  color: grey;
+  max-width: 800px;
+  text-align: left;
+  margin-top: -0.75em;
+  margin-bottom: 1em;
+  font-size: 15px;
+}
+
+img.star {
+  width: 40px;
+  height: 40px;
+}
+
+.half {
+  width: 20px;
+  height: 40px;
+  overflow: hidden;
+}
+
+/* Feature CSS */
+
+/* Synopsis CSS */
+
+a.feature-link {
+  text-decoration: none;
+  color: black;
+}
+.synopsis-caption {
+  color: grey;
+  font-size: 15px;
+}
+
+/* Compact */
+/* Index Level */
+.compact-flexbox-container {
+  width: min(100%, 800px);
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.compact-alignment {
+  flex-grow: 1;
+  flex-basis: 205px;
+}
+/* Index Level */
+.compact-container {
+  max-width: 300px;
+}
+.compact-image-container {
+  width: 100%;
+}
+img.compact-synopsis-image {
+  height: 150px;
+  border-radius: 5px;
+  width: 100%;
+  object-fit: cover;
+}
+.compact-synopsis-header {
+  font-weight: normal;
+  font-size: 20px;
+  text-align: left;
+  margin: auto
+}
+/* Compact */
+
+/* */
+.flexbox-container {
+  width: min(100%, 800px);
+  margin: auto;
+  Margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 10px;
+}
+.image-container {
+  flex-grow: 1;
+  flex-basis: 175px;
+}
+.synopsis-container {
+  flex-grow: 1;
+  flex-basis: 365px;
+  text-align: left;
+}
+.synopsis {
+  margin-top: 10px;
+  Margin-bottom: 0px;
+}
+img.synopsis-photo {
+  border-radius: 5px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.synopsis-header{
+  font-weight: normal;
+  text-align: left;
+  font-size: 27px;
+}
+.synopsis-subheader {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 20px;
+}
+/* */
+
+/* Wide */
+.wide-flexbox-container {
+  width: min(100%, 800px);
+  margin: auto;
+}
+img.wide-synopsis-image {
+  border-radius: 5px;
+  width: min(800px, 100%);
+  height: 250px;
+  object-fit: cover;
+}
+.wide-synopsis-container {
+  text-align: left;
+}
+.wide-synopsis-header {
+  font-weight: normal;
+  text-align: left;
+  font-size: 27px;
+}
+.wide-synopsis-body {
+  margin-top: 0;
+  padding-top: 5px;
+  margin-bottom: 0;
+}
+.wide-synopsis-subheader {
+  font-weight: normal;
+  font-style: italic;
+  font-size: 20px;
+}
+/* Wide */
+
+/* Synopsis CSS */
+
+/* Favorites CSS */
+
+.collection-header {
+  background-image: linear-gradient(
+    135deg,
+    hsl(300deg 100% 50%) 1%,
+    hsl(281deg 100% 69%) 40%,
+    hsl(249deg 100% 76%) 53%,
+    hsl(215deg 100% 66%) 63%,
+    hsl(200deg 100% 50%) 70%,
+    hsl(197deg 100% 50%) 79%,
+    hsl(195deg 100% 50%) 100%
+  ); 
+  width:100vm;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  margin: -15px -15px 15px -15px;
+}
+
+/* Favorites CSS */
