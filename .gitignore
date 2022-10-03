@@ -1,0 +1,5 @@
+*.DS_Store
+Task List.txt
+*Markdown.txt
+Auxiliary/**
+search.txt
