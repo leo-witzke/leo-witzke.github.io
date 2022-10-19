@@ -1,4 +1,5 @@
-var features = [["Top Gun Maverick","a"],
+var features = [["The Boys","a"],
+		["Top Gun Maverick","a"],
                 ["The Rehearsal","a"],
                 ["The Batman","a"],
                 ["The Righteous Gemstones","r"],

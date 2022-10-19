@@ -162,6 +162,26 @@ img.star {
   overflow: hidden;
 }
 
+.embed-wrapper {
+  max-width: 600px;
+  margin: 0 0 20px;
+}
+
+.embed-caption {
+  max-width: 600px;
+  font-size: 15px;
+  color: grey;
+  margin: 0;
+}
+
+a.red-link {
+  text-decoration: none;
+  color: red;
+}
+.red-link:hover {
+  text-decoration: underline;
+}
+
 /* Feature CSS */
 
 /* Synopsis CSS */
